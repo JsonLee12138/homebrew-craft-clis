@@ -66,15 +66,15 @@
 **Description:** 编写初始 `README.md`，执行 `python3 scripts/sync.py` 生成全部 16 个 Formula 并自动填充 `README.md`，校验 Ruby 语法与二次运行的幂等性。
 
 **Acceptance criteria:**
-- [ ] 成功在 `Formula/` 目录下生成全部 16 个 `*-cli.rb`
-- [ ] `README.md` 包含使用说明（`brew tap`、`brew install`、更新方式）和自动生成的 16 个 CLI 产品清单表格
-- [ ] `ruby -c Formula/*.rb` 零语法错误
-- [ ] 连续运行两次 `python3 scripts/sync.py`，第二次运行后 `git status --porcelain` 为空
+- [x] 成功在 `Formula/` 目录下生成全部 16 个 `*-cli.rb`
+- [x] `README.md` 包含使用说明（`brew tap`、`brew install`、更新方式）和自动生成的 16 个 CLI 产品清单表格
+- [x] `ruby -c Formula/*.rb` 零语法错误
+- [x] 连续运行两次 `python3 scripts/sync.py`，第二次运行后 `git status --porcelain` 为空
 
 **Verification:**
-- [ ] `ls Formula/*.rb | wc -l` 结果为 16
-- [ ] `ruby -c Formula/*.rb` 退出码为 0
-- [ ] 二次执行 `python3 scripts/sync.py` 后 `git diff` 为空
+- [x] `ls Formula/*.rb | wc -l` 结果为 16
+- [x] `ruby -c Formula/*.rb` 退出码为 0
+- [x] 二次执行 `python3 scripts/sync.py` 后 `git diff` 为空
 
 **Dependencies:** Task 2
 
@@ -87,8 +87,8 @@
 ---
 
 ## Checkpoint: After Task 3
-- [ ] 16 个 Formula 生成完毕且语法验证通过
-- [ ] 幂等性验证通过
+- [x] 16 个 Formula 生成完毕且语法验证通过
+- [x] 幂等性验证通过
 
 ---
 
