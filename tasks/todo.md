@@ -5,14 +5,14 @@
 **Description:** 初始化本地 Git 仓库，设置默认分支为 `main`，配置远端仓库 `https://github.com/JsonLee12138/homebrew-craft-clis.git`，添加 `.gitignore` 避免 Python 缓存和临时文件污染，创建 `config.json` 基础配置文件。
 
 **Acceptance criteria:**
-- [ ] 本地 Git 仓库处于 `main` 分支，remote origin 指向 `https://github.com/JsonLee12138/homebrew-craft-clis.git`
-- [ ] `.gitignore` 涵盖 Python `__pycache__`、`*.pyc`、`.pytest_cache`、macOS `.DS_Store`
-- [ ] `config.json` 包含 `org: "storytold"` 和 `exclude_repos: []`
+- [x] 本地 Git 仓库处于 `main` 分支，remote origin 指向 `https://github.com/JsonLee12138/homebrew-craft-clis.git`
+- [x] `.gitignore` 涵盖 Python `__pycache__`、`*.pyc`、`.pytest_cache`、macOS `.DS_Store`
+- [x] `config.json` 包含 `org: "storytold"` 和 `exclude_repos: []`
 
 **Verification:**
-- [ ] `git remote -v` 输出预期远程地址
-- [ ] `git branch --show-current` 输出 `main`
-- [ ] `config.json` 解析合规
+- [x] `git remote -v` 输出预期远程地址
+- [x] `git branch --show-current` 输出 `main`
+- [x] `config.json` 解析合规
 
 **Dependencies:** None
 
@@ -25,7 +25,7 @@
 ---
 
 ## Checkpoint: After Task 1
-- [ ] Git 基础环境和基础配置就绪
+- [x] Git 基础环境和基础配置就绪
 
 ---
 
@@ -34,16 +34,16 @@
 **Description:** 使用 Python 3 标准库实现核心同步逻辑 `scripts/sync.py`，支持扫描 GitHub 组织、提取最新正式 release、下载解析 `SHA256SUMS.txt`、类名转驼峰、生成 Homebrew Formula Ruby 脚本、更新 `README.md` 的标记区块，并编写全面的单元测试。
 
 **Acceptance criteria:**
-- [ ] `scripts/sync.py` 仅使用 Python 3.11+ 标准库，支持 `--dry-run` 与 `--config` 参数
-- [ ] 正确匹配 `^(?P<cli_name>.+-cli)-(?P<version>.+)-macos-universal\.zip$`，解析 SHA256SUMS.txt（兼容单空格、双空格、星号前缀）
-- [ ] 驼峰转换：`wordcraft-cli` -> `WordcraftCli`，`craft-anything-cli` -> `CraftAnythingCli`
-- [ ] 渲染符合 Homebrew 标准 DSL 的 Formula，包含 `desc`、`homepage`、`url`、`version`、`sha256`、`license`、`depends_on :macos`、`install`、`test`
-- [ ] `README.md` 包含 `<!-- FORMULAE-TABLE:START -->` 和 `<!-- FORMULAE-TABLE:END -->` 占位符，支持幂等更新产品表格
-- [ ] `tests/test_sync.py` 覆盖所有核心函数（类名转换、SHA256 解析、资产过滤、排除列表处理、README 表格替换、Formula 模板渲染）
+- [x] `scripts/sync.py` 仅使用 Python 3.11+ 标准库，支持 `--dry-run` 与 `--config` 参数
+- [x] 正确匹配 `^(?P<cli_name>.+-cli)-(?P<version>.+)-macos-universal\.zip$`，解析 SHA256SUMS.txt（兼容单空格、双空格、星号前缀）
+- [x] 驼峰转换：`wordcraft-cli` -> `WordcraftCli`，`craft-anything-cli` -> `CraftAnythingCli`
+- [x] 渲染符合 Homebrew 标准 DSL 的 Formula，包含 `desc`、`homepage`、`url`、`version`、`sha256`、`license`、`depends_on :macos`、`install`、`test`
+- [x] `README.md` 包含 `<!-- FORMULAE-TABLE:START -->` 和 `<!-- FORMULAE-TABLE:END -->` 占位符，支持幂等更新产品表格
+- [x] `tests/test_sync.py` 覆盖所有核心函数（类名转换、SHA256 解析、资产过滤、排除列表处理、README 表格替换、Formula 模板渲染）
 
 **Verification:**
-- [ ] `python3 -m unittest discover -s tests -v` 全部通过
-- [ ] `python3 scripts/sync.py --dry-run` 正常打印扫描到的产品信息
+- [x] `python3 -m unittest discover -s tests -v` 全部通过
+- [x] `python3 scripts/sync.py --dry-run` 正常打印扫描到的产品信息
 
 **Dependencies:** Task 1
 
@@ -56,8 +56,8 @@
 ---
 
 ## Checkpoint: After Task 2
-- [ ] 核心逻辑单元测试 100% 通过
-- [ ] `--dry-run` 验证成功
+- [x] 核心逻辑单元测试 100% 通过
+- [x] `--dry-run` 验证成功
 
 ---
 
