@@ -97,13 +97,13 @@
 **Description:** 创建 GitHub Actions 工作流 `.github/workflows/sync.yml`，设置定时任务（UTC 01:17 / 北京时间 09:17）与手动触发（`workflow_dispatch`），声明最小权限，运行单元测试、同步脚本、Ruby 语法校验，并在有变更时自动提交与推送。
 
 **Acceptance criteria:**
-- [ ] 遵循官方 GitHub Actions 规范与最小权限原则（顶层 `permissions: contents: read`，任务 `permissions: contents: write`）
-- [ ] 触发器配置：`schedule` cron 表达式 `'17 1 * * *'` 及 `workflow_dispatch`
-- [ ] 步骤：Checkout、Setup Python、运行单元测试、执行 `sync.py`、Ruby 语法校验、按需提交推送（提交附带 `[skip ci]`）
+- [x] 遵循官方 GitHub Actions 规范与最小权限原则（顶层 `permissions: contents: read`，任务 `permissions: contents: write`）
+- [x] 触发器配置：`schedule` cron 表达式 `'17 1 * * *'` 及 `workflow_dispatch`
+- [x] 步骤：Checkout、Setup Python、运行单元测试、执行 `sync.py`、Ruby 语法校验、按需提交推送（提交附带 `[skip ci]`）
 
 **Verification:**
-- [ ] YAML 语法有效性检查
-- [ ] 审查权限与安全规范
+- [x] YAML 语法有效性检查
+- [x] 审查权限与安全规范
 
 **Dependencies:** Task 3
 
@@ -115,7 +115,7 @@
 ---
 
 ## Checkpoint: After Task 4
-- [ ] GitHub Actions 工作流配置正确合规
+- [x] GitHub Actions 工作流配置正确合规
 
 ---
 

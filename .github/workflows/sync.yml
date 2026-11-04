@@ -1,0 +1,53 @@
+name: Sync Formulae
+
+on:
+  schedule:
+    # Runs at 01:17 UTC (09:17 CST / Beijing Time) every day
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    name: Sync Formulae and README
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Run sync script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/sync.py
+
+      - name: Verify Ruby Formula syntax
+        run: |
+          ruby -v
+          ruby -c Formula/*.rb
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Formula/*.rb README.md
+          if git diff --staged --quiet; then
+            echo "No changes detected, repository is up to date."
+          else
+            git commit -m "chore: sync formulae and readme [skip ci]"
+            git push
+          fi
