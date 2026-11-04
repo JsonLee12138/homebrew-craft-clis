@@ -124,13 +124,13 @@
 **Description:** 进行本地端到端测试（通过 Homebrew 本地安装测试至少一个 Formula，如 `wordcraft-cli`），验证 `wordcraft-cli --version` 正常工作；整理所有阶段的提交并推送到 GitHub 远程仓库 `JsonLee12138/homebrew-craft-clis`。
 
 **Acceptance criteria:**
-- [ ] `brew install --formula ./Formula/wordcraft-cli.rb` 安装成功，`wordcraft-cli --version` 正确输出且无 Gatekeeper 阻断
-- [ ] 所有代码以规范的原子提交提交到 `main` 分支
-- [ ] 成功推送到 `https://github.com/JsonLee12138/homebrew-craft-clis`
+- [x] `brew install --formula ./Formula/wordcraft-cli.rb` 安装成功，`wordcraft-cli --version` 正确输出且无 Gatekeeper 阻断
+- [x] 所有代码以规范的原子提交提交到 `main` 分支
+- [x] 成功推送到 `https://github.com/JsonLee12138/homebrew-craft-clis`
 
 **Verification:**
-- [ ] `wordcraft-cli --version` 执行成功
-- [ ] `git push origin main` 成功，远程仓库包含完整代码与工作流
+- [x] `wordcraft-cli --version` 执行成功
+- [x] `git push origin main` 成功，远程仓库包含完整代码与工作流
 
 **Dependencies:** Task 4
 
@@ -138,3 +138,9 @@
 - Git commits
 
 **Estimated scope:** Small
+
+---
+
+## Checkpoint: Complete
+- [x] 远程 `main` 分支已推送，代码、CI、文档与 Formula 均就绪
+- [x] GitHub Actions 端到端自动执行成功 (15s 零报错)
