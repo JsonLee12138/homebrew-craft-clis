@@ -5,9 +5,9 @@
 class SoundcraftCli < Formula
   desc "Reimplementation of Avid Pro Tools in pure Rust"
   homepage "https://getartcraft.com/apps/soundcraft"
-  url "https://github.com/storytold/soundcraft/releases/download/v0.17.0/soundcraft-cli-0.17.0-macos-universal.zip"
-  version "0.17.0"
-  sha256 "646428febf39eb4f48059c9e32f3e42efa58dfaf15f1a9abb4634bb54a655868"
+  url "https://github.com/storytold/soundcraft/releases/download/v0.17.1/soundcraft-cli-0.17.1-macos-universal.zip"
+  version "0.17.1"
+  sha256 "1634dd1c63aff8fcc5704b168642be8173cc0dda631da7e4ec985a5094833af8"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

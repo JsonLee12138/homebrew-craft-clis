@@ -5,9 +5,9 @@
 class DeckcraftCli < Formula
   desc "Reimplementation of Microsoft PowerPoint in pure Rust"
   homepage "https://getartcraft.com/apps/slidecraft"
-  url "https://github.com/storytold/deckcraft/releases/download/v0.15.0/deckcraft-cli-0.15.0-macos-universal.zip"
-  version "0.15.0"
-  sha256 "a46be9178b59b9044859f93d9bb08bceb747abcf82fe2fb92166449830e3750f"
+  url "https://github.com/storytold/deckcraft/releases/download/v0.15.1/deckcraft-cli-0.15.1-macos-universal.zip"
+  version "0.15.1"
+  sha256 "511fec801f2865b1d9751a07a7be637abf4788faeb4163d075459d941b413877"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

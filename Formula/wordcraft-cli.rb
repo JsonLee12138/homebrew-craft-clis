@@ -5,9 +5,9 @@
 class WordcraftCli < Formula
   desc "Reimplementation of Microsoft Word in pure Rust"
   homepage "https://getartcraft.com/apps/wordcraft"
-  url "https://github.com/storytold/wordcraft/releases/download/v0.15.1/wordcraft-cli-0.15.1-macos-universal.zip"
-  version "0.15.1"
-  sha256 "885749231387a8e8212b5c6747d432cf83c49b227d7021ff97f32b4740102174"
+  url "https://github.com/storytold/wordcraft/releases/download/v0.15.2/wordcraft-cli-0.15.2-macos-universal.zip"
+  version "0.15.2"
+  sha256 "b988f1628adc5ce64c872f130b5502cf36ed91fe39a3952ea3b60319f6921062"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

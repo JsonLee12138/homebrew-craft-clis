@@ -5,9 +5,9 @@
 class DesigncraftCli < Formula
   desc "Page and layout design editor written by scratch in pure Rust"
   homepage "https://getartcraft.com/apps/designcraft"
-  url "https://github.com/storytold/designcraft/releases/download/v0.17.0/designcraft-cli-0.17.0-macos-universal.zip"
-  version "0.17.0"
-  sha256 "5c7f71f5602f90f2e7334933d2c6ea443f998161828b7992ecce9de84d2008f8"
+  url "https://github.com/storytold/designcraft/releases/download/v0.17.2/designcraft-cli-0.17.2-macos-universal.zip"
+  version "0.17.2"
+  sha256 "3d3b0ad3cda23344dbfba5f08a46dbfc81a02477dc644ca2b1266dee23198372"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

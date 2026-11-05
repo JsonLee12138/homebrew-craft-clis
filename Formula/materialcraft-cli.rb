@@ -5,9 +5,9 @@
 class MaterialcraftCli < Formula
   desc "Open-source, node-based material designer written from scratch in pure Rust"
   homepage "https://getartcraft.com/apps/materialcraft"
-  url "https://github.com/storytold/materialcraft/releases/download/v0.1.0/materialcraft-cli-0.1.0-macos-universal.zip"
-  version "0.1.0"
-  sha256 "ee04f95f70e0e00137f1cdf680131a69720a4c5696755c383430acaba5e6a9ae"
+  url "https://github.com/storytold/materialcraft/releases/download/v0.1.2/materialcraft-cli-0.1.2-macos-universal.zip"
+  version "0.1.2"
+  sha256 "e734037da5dfd41a5ebf5324d2a09b7f945281e71c1097cea0277b5a0a06a011"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

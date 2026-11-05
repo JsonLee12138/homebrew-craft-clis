@@ -5,9 +5,9 @@
 class FilmcraftCli < Formula
   desc "Open-source, nonlinear video editor written by scratch in pure Rust"
   homepage "https://getartcraft.com/apps/filmcraft"
-  url "https://github.com/storytold/filmcraft/releases/download/v0.17.0/filmcraft-cli-0.17.0-macos-universal.zip"
-  version "0.17.0"
-  sha256 "338a4042e235030af22d0a1039a4e463e325cf06a0970e1db6f0cb612a82b4d0"
+  url "https://github.com/storytold/filmcraft/releases/download/v0.17.1/filmcraft-cli-0.17.1-macos-universal.zip"
+  version "0.17.1"
+  sha256 "ca0749fecd44c51caee419d90938d24ce322340d7af1d1660605166f1ecd2755"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
