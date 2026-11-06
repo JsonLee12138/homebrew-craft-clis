@@ -52,7 +52,7 @@ brew upgrade wordcraft-cli
 | CLI | Version | Description | Install Command |
 | --- | --- | --- | --- |
 | [`cadcraft-cli`](Formula/cadcraft-cli.rb) | `0.17.1` | Computer-aided design and drafting | `brew install JsonLee12138/craft-clis/cadcraft-cli` |
-| [`craft-anything-cli`](Formula/craft-anything-cli.rb) | `0.3.0` | Understand how any software works, and craft your own | `brew install JsonLee12138/craft-clis/craft-anything-cli` |
+| [`craft-anything-cli`](Formula/craft-anything-cli.rb) | `0.4.0` | Understand how any software works, and craft your own | `brew install JsonLee12138/craft-clis/craft-anything-cli` |
 | [`deckcraft-cli`](Formula/deckcraft-cli.rb) | `0.15.1` | Reimplementation of Microsoft PowerPoint in pure Rust | `brew install JsonLee12138/craft-clis/deckcraft-cli` |
 | [`designcraft-cli`](Formula/designcraft-cli.rb) | `0.17.2` | Page and layout design editor written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/designcraft-cli` |
 | [`effectcraft-cli`](Formula/effectcraft-cli.rb) | `0.21.1` | Motion graphics and compositing tool written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/effectcraft-cli` |
