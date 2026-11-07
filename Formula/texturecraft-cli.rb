@@ -5,9 +5,9 @@
 class TexturecraftCli < Formula
   desc "Open-source, 3D texture painting workflow written from scratch in pure Rust"
   homepage "https://getartcraft.com/apps/texturecraft"
-  url "https://github.com/storytold/texturecraft/releases/download/v0.3.2/texturecraft-cli-0.3.2-macos-universal.zip"
-  version "0.3.2"
-  sha256 "9c7dd000cf01c2e1e685ed1e86eeb72e4035d367ee580f6c3c195c799dbaa99d"
+  url "https://github.com/storytold/texturecraft/releases/download/v0.4.0/texturecraft-cli-0.4.0-macos-universal.zip"
+  version "0.4.0"
+  sha256 "9d5a694bc9d63fcef4c5be66ec7f6efd9a8487e06e74de364d587fcc81d1c56d"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

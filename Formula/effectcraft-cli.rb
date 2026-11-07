@@ -5,9 +5,9 @@
 class EffectcraftCli < Formula
   desc "Motion graphics and compositing tool written by scratch in pure Rust"
   homepage "https://getartcraft.com/apps/effectcraft"
-  url "https://github.com/storytold/effectcraft/releases/download/v0.21.1/effectcraft-cli-0.21.1-macos-universal.zip"
-  version "0.21.1"
-  sha256 "6072d7fc51f503ebfc3daef78ec2dbc3e7bbf400f4cd5f4f559a28371d8ceb1c"
+  url "https://github.com/storytold/effectcraft/releases/download/v0.22.0/effectcraft-cli-0.22.0-macos-universal.zip"
+  version "0.22.0"
+  sha256 "2cdd28b03166b6ba7e364e886b3d29696e68d70dbca86b70b3922bfe4d2cda6e"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

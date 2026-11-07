@@ -5,9 +5,9 @@
 class GridcraftCli < Formula
   desc "Spreadsheet (Microsoft Excel-style) in pure Rust"
   homepage "https://github.com/storytold/gridcraft"
-  url "https://github.com/storytold/gridcraft/releases/download/v0.16.1/gridcraft-cli-0.16.1-macos-universal.zip"
-  version "0.16.1"
-  sha256 "09ab14008c219541474487f77d250c00e07975a63efc1e4ea7bd21139b329a74"
+  url "https://github.com/storytold/gridcraft/releases/download/v0.17.0/gridcraft-cli-0.17.0-macos-universal.zip"
+  version "0.17.0"
+  sha256 "d792615873fa4f742e0eb28779d92e53671191669225a11921e3cd51460259d7"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
