@@ -52,21 +52,14 @@ brew upgrade wordcraft-cli
 | CLI | Version | Description | Install Command |
 | --- | --- | --- | --- |
 | [`cadcraft-cli`](Formula/cadcraft-cli.rb) | `0.18.0` | Computer-aided design and drafting | `brew install JsonLee12138/craft-clis/cadcraft-cli` |
-| [`craft-anything-cli`](Formula/craft-anything-cli.rb) | `0.5.0` | Understand how any software works, and craft your own | `brew install JsonLee12138/craft-clis/craft-anything-cli` |
 | [`deckcraft-cli`](Formula/deckcraft-cli.rb) | `0.16.0` | Reimplementation of Microsoft PowerPoint in pure Rust | `brew install JsonLee12138/craft-clis/deckcraft-cli` |
 | [`designcraft-cli`](Formula/designcraft-cli.rb) | `0.18.0` | Page and layout design editor written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/designcraft-cli` |
 | [`effectcraft-cli`](Formula/effectcraft-cli.rb) | `0.22.0` | Motion graphics and compositing tool written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/effectcraft-cli` |
 | [`figcraft-cli`](Formula/figcraft-cli.rb) | `0.16.0` | Interface design and prototyping | `brew install JsonLee12138/craft-clis/figcraft-cli` |
 | [`filmcraft-cli`](Formula/filmcraft-cli.rb) | `0.18.0` | Open-source, nonlinear video editor written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/filmcraft-cli` |
-| [`gridcraft-cli`](Formula/gridcraft-cli.rb) | `0.17.0` | Spreadsheet (Microsoft Excel-style) in pure Rust | `brew install JsonLee12138/craft-clis/gridcraft-cli` |
-| [`lightcraft-cli`](Formula/lightcraft-cli.rb) | `0.19.0` | Non-destructive photo editor written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/lightcraft-cli` |
-| [`materialcraft-cli`](Formula/materialcraft-cli.rb) | `0.2.0` | Open-source, node-based material designer written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/materialcraft-cli` |
 | [`pdfcraft-cli`](Formula/pdfcraft-cli.rb) | `0.19.0` | PDF reader and editor written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/pdfcraft-cli` |
 | [`photocraft-cli`](Formula/photocraft-cli.rb) | `0.21.0` | Open-source, photo editor written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/photocraft-cli` |
-| [`soundcraft-cli`](Formula/soundcraft-cli.rb) | `0.18.0` | Reimplementation of Avid Pro Tools in pure Rust | `brew install JsonLee12138/craft-clis/soundcraft-cli` |
 | [`texturecraft-cli`](Formula/texturecraft-cli.rb) | `0.4.0` | Open-source, 3D texture painting workflow written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/texturecraft-cli` |
-| [`vectorcraft-cli`](Formula/vectorcraft-cli.rb) | `0.22.0` | Open-source, vector art tool written by scratch in pure Rust | `brew install JsonLee12138/craft-clis/vectorcraft-cli` |
-| [`wordcraft-cli`](Formula/wordcraft-cli.rb) | `0.16.0` | Reimplementation of Microsoft Word in pure Rust | `brew install JsonLee12138/craft-clis/wordcraft-cli` |
 
 <!-- FORMULAE-TABLE:END -->
 
