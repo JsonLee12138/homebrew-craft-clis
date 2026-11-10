@@ -5,9 +5,9 @@
 class FigcraftCli < Formula
   desc "Interface design and prototyping"
   homepage "https://getartcraft.com/apps/figcraft"
-  url "https://github.com/storytold/figcraft/releases/download/v0.16.0/figcraft-cli-0.16.0-macos-universal.zip"
-  version "0.16.0"
-  sha256 "48a0f350fccd1ac22d744645f09cba00f9795ed3c4ef1273c67551387ccdf63b"
+  url "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-cli-0.17.0-macos-universal.zip"
+  version "0.17.0"
+  sha256 "42ca7e870c7e9c2dd574de176f1e0640e016123f83d3244b501e60f905f3a50a"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

@@ -5,9 +5,9 @@
 class CadcraftCli < Formula
   desc "Computer-aided design and drafting"
   homepage "https://github.com/storytold/cadcraft"
-  url "https://github.com/storytold/cadcraft/releases/download/v0.18.0/cadcraft-cli-0.18.0-macos-universal.zip"
-  version "0.18.0"
-  sha256 "323d276a2693c57ef6d15719aedf64903391d2a309f7cd1332434fa1b9a03e3e"
+  url "https://github.com/storytold/cadcraft/releases/download/v0.19.0/cadcraft-cli-0.19.0-macos-universal.zip"
+  version "0.19.0"
+  sha256 "6db9565a5fec6bacdfccbf62628a89e4430c9dbb5cc1eb85dbbef71e36e49da9"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

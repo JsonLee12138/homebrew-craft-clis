@@ -5,9 +5,9 @@
 class CraftAnythingCli < Formula
   desc "Understand how any software works, and craft your own"
   homepage "https://github.com/storytold/craft-anything"
-  url "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-cli-0.5.0-macos-universal.zip"
-  version "0.5.0"
-  sha256 "88ce25c2d727e8536678a4c9877e1a8020165198869135f08e7fac13761835fc"
+  url "https://github.com/storytold/craft-anything/releases/download/v0.6.0/craft-anything-cli-0.6.0-macos-universal.zip"
+  version "0.6.0"
+  sha256 "29661218b0c293308b4ffbe1623628f2d22ad4074dabeb414dbc8c7f25dcb2a5"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
