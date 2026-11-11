@@ -51,6 +51,7 @@ brew upgrade wordcraft-cli
 
 | CLI | Version | Description | Install Command |
 | --- | --- | --- | --- |
+| [`anicraft-cli`](Formula/anicraft-cli.rb) | `0.1.0` | 2D animation editor written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/anicraft-cli` |
 | [`cadcraft-cli`](Formula/cadcraft-cli.rb) | `0.19.0` | Computer-aided design and drafting | `brew install JsonLee12138/craft-clis/cadcraft-cli` |
 | [`craft-anything-cli`](Formula/craft-anything-cli.rb) | `0.6.0` | Understand how any software works, and craft your own | `brew install JsonLee12138/craft-clis/craft-anything-cli` |
 | [`deckcraft-cli`](Formula/deckcraft-cli.rb) | `0.17.0` | Presentations and slide shows | `brew install JsonLee12138/craft-clis/deckcraft-cli` |
