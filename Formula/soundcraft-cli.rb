@@ -5,9 +5,9 @@
 class SoundcraftCli < Formula
   desc "Digital audio workstation (DAW) in pure Rust"
   homepage "https://getartcraft.com/apps/soundcraft"
-  url "https://github.com/storytold/soundcraft/releases/download/v0.19.0/soundcraft-cli-0.19.0-macos-universal.zip"
-  version "0.19.0"
-  sha256 "d0bd08082292f972e3435834df437f5d9c8b8f4913586138509d1e1c0ab7d986"
+  url "https://github.com/storytold/soundcraft/releases/download/v0.20.1/soundcraft-cli-0.20.1-macos-universal.zip"
+  version "0.20.1"
+  sha256 "866fcbfe32179e6652159385b4f676ba756e1cadb88fac3e9173e9643f763b51"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

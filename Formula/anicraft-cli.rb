@@ -5,9 +5,9 @@
 class AnicraftCli < Formula
   desc "2D animation editor written from scratch in pure Rust"
   homepage "https://github.com/storytold/anicraft"
-  url "https://github.com/storytold/anicraft/releases/download/v0.1.0/anicraft-cli-0.1.0-macos-universal.zip"
-  version "0.1.0"
-  sha256 "c4badaed6eeffb12eb2c498c8c7d32edc62f7abd1de0ebe45d85de2d8c80da8b"
+  url "https://github.com/storytold/anicraft/releases/download/v0.2.1/anicraft-cli-0.2.1-macos-universal.zip"
+  version "0.2.1"
+  sha256 "3fb12429aa306bdbb01ba1e1c5ddb69fb7c688f07d16c0e148bbe92c4c5ebb06"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

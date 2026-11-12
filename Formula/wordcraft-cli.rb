@@ -5,9 +5,9 @@
 class WordcraftCli < Formula
   desc "Word processor in pure Rust"
   homepage "https://getartcraft.com/apps/wordcraft"
-  url "https://github.com/storytold/wordcraft/releases/download/v0.17.0/wordcraft-cli-0.17.0-macos-universal.zip"
-  version "0.17.0"
-  sha256 "edb73c8562541df448884fcddc03540980a4a64939d363ab90b59a08b95b14d0"
+  url "https://github.com/storytold/wordcraft/releases/download/v0.18.1/wordcraft-cli-0.18.1-macos-universal.zip"
+  version "0.18.1"
+  sha256 "34397cf6fcf73ee8ae8d53cab08fbdfc213262dbb6753c2965ebb7cde37b8616"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

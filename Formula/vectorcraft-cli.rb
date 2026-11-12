@@ -5,9 +5,9 @@
 class VectorcraftCli < Formula
   desc "Vector art tool written from scratch in pure Rust"
   homepage "https://getartcraft.com/apps/vectorcraft"
-  url "https://github.com/storytold/vectorcraft/releases/download/v0.23.0/vectorcraft-cli-0.23.0-macos-universal.zip"
-  version "0.23.0"
-  sha256 "beab784c2971caa7fd5ab48058e2af69c3c8bf76ef8abfb78e36bdf5b76dee20"
+  url "https://github.com/storytold/vectorcraft/releases/download/v0.24.1/vectorcraft-cli-0.24.1-macos-universal.zip"
+  version "0.24.1"
+  sha256 "7f0c8261e5c831d9681e48272f9ba73bf8702dbf6ceb84f98177c7c007faddf2"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

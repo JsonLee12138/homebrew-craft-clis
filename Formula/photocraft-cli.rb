@@ -5,9 +5,9 @@
 class PhotocraftCli < Formula
   desc "Photo editor written from scratch in pure Rust"
   homepage "https://getartcraft.com/apps/photocraft"
-  url "https://github.com/storytold/photocraft/releases/download/v0.22.0/photocraft-cli-0.22.0-macos-universal.zip"
-  version "0.22.0"
-  sha256 "60e5bf1e689e58a800763867fbed193b7297d6366bbece57b6b78abd9ada875b"
+  url "https://github.com/storytold/photocraft/releases/download/v0.23.1/photocraft-cli-0.23.1-macos-universal.zip"
+  version "0.23.1"
+  sha256 "a6ecdc6d4add02881642bda0a0b191b4974118651f2ec5641dc71b2c3ff4b752"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

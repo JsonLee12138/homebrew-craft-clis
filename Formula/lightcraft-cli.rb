@@ -5,9 +5,9 @@
 class LightcraftCli < Formula
   desc "Non-destructive photo editor written from scratch in pure Rust"
   homepage "https://getartcraft.com/apps/lightcraft"
-  url "https://github.com/storytold/lightcraft/releases/download/v0.20.0/lightcraft-cli-0.20.0-macos-universal.zip"
-  version "0.20.0"
-  sha256 "b73900c6a3bb71d5b1720e9e779bd50ec551abfb02c952d29ed3756a564be605"
+  url "https://github.com/storytold/lightcraft/releases/download/v0.21.1/lightcraft-cli-0.21.1-macos-universal.zip"
+  version "0.21.1"
+  sha256 "58086b9d224d02b5ec9ed08e76da04ba1dc5d51d3c285cdea417358fa7ea06e2"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
