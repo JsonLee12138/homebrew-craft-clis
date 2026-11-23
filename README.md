@@ -62,7 +62,7 @@ brew upgrade wordcraft-cli
 | [`gridcraft-cli`](Formula/gridcraft-cli.rb) | `0.19.1` | Spreadsheet in pure Rust | `brew install JsonLee12138/craft-clis/gridcraft-cli` |
 | [`lightcraft-cli`](Formula/lightcraft-cli.rb) | `0.21.1` | Non-destructive photo editor written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/lightcraft-cli` |
 | [`materialcraft-cli`](Formula/materialcraft-cli.rb) | `0.4.1` | Open-source, node-based material designer written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/materialcraft-cli` |
-| [`pdfcraft-cli`](Formula/pdfcraft-cli.rb) | `0.21.1` | PDF reader and editor written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/pdfcraft-cli` |
+| [`pdfcraft-cli`](Formula/pdfcraft-cli.rb) | `0.22.0` | PDF reader and editor written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/pdfcraft-cli` |
 | [`photocraft-cli`](Formula/photocraft-cli.rb) | `0.23.1` | Photo editor written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/photocraft-cli` |
 | [`soundcraft-cli`](Formula/soundcraft-cli.rb) | `0.20.1` | Digital audio workstation (DAW) in pure Rust | `brew install JsonLee12138/craft-clis/soundcraft-cli` |
 | [`texturecraft-cli`](Formula/texturecraft-cli.rb) | `0.6.1` | Open-source, 3D texture painting workflow written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/texturecraft-cli` |

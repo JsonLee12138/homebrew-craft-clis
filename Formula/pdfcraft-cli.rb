@@ -5,9 +5,9 @@
 class PdfcraftCli < Formula
   desc "PDF reader and editor written from scratch in pure Rust"
   homepage "https://getartcraft.com/apps/printcraft"
-  url "https://github.com/storytold/pdfcraft/releases/download/v0.21.1/pdfcraft-cli-0.21.1-macos-universal.zip"
-  version "0.21.1"
-  sha256 "337a9f644744b57e10de41c57366e53c5ccf8840a4d5dc7322b17b9b83fdc2fa"
+  url "https://github.com/storytold/pdfcraft/releases/download/v0.22.0/pdfcraft-cli-0.22.0-macos-universal.zip"
+  version "0.22.0"
+  sha256 "d9b8a88070895e6d5ccf3cc53d1de353622b60bd8af993e1c3959b4be1caf0da"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
