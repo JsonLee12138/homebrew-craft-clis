@@ -5,9 +5,9 @@
 class DeckcraftCli < Formula
   desc "Presentations and slide shows"
   homepage "https://getartcraft.com/apps/slidecraft"
-  url "https://github.com/storytold/deckcraft/releases/download/v0.18.1/deckcraft-cli-0.18.1-macos-universal.zip"
-  version "0.18.1"
-  sha256 "10992f73c88a4c0361dd0fec3a4d7490731ffb3ea9658ee2274b396e3341af00"
+  url "https://github.com/storytold/deckcraft/releases/download/v0.19.1/deckcraft-cli-0.19.1-macos-universal.zip"
+  version "0.19.1"
+  sha256 "1285b14823cd413ee2a666b501f8ba5076ce2ba043938143bc04bf26ec5bf0e8"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

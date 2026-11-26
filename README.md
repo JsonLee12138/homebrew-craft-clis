@@ -54,7 +54,7 @@ brew upgrade wordcraft-cli
 | [`anicraft-cli`](Formula/anicraft-cli.rb) | `0.2.1` | 2D animation editor written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/anicraft-cli` |
 | [`cadcraft-cli`](Formula/cadcraft-cli.rb) | `0.20.1` | Computer-aided design and drafting | `brew install JsonLee12138/craft-clis/cadcraft-cli` |
 | [`craft-anything-cli`](Formula/craft-anything-cli.rb) | `0.6.1` | Understand how any software works, and craft your own | `brew install JsonLee12138/craft-clis/craft-anything-cli` |
-| [`deckcraft-cli`](Formula/deckcraft-cli.rb) | `0.18.1` | Presentations and slide shows | `brew install JsonLee12138/craft-clis/deckcraft-cli` |
+| [`deckcraft-cli`](Formula/deckcraft-cli.rb) | `0.19.1` | Presentations and slide shows | `brew install JsonLee12138/craft-clis/deckcraft-cli` |
 | [`designcraft-cli`](Formula/designcraft-cli.rb) | `0.21.1` | Page and layout design editor written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/designcraft-cli` |
 | [`effectcraft-cli`](Formula/effectcraft-cli.rb) | `0.25.1` | Motion graphics and compositing tool written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/effectcraft-cli` |
 | [`figcraft-cli`](Formula/figcraft-cli.rb) | `0.18.1` | Interface design and prototyping | `brew install JsonLee12138/craft-clis/figcraft-cli` |
@@ -67,7 +67,7 @@ brew upgrade wordcraft-cli
 | [`soundcraft-cli`](Formula/soundcraft-cli.rb) | `0.20.1` | Digital audio workstation (DAW) in pure Rust | `brew install JsonLee12138/craft-clis/soundcraft-cli` |
 | [`texturecraft-cli`](Formula/texturecraft-cli.rb) | `0.6.1` | Open-source, 3D texture painting workflow written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/texturecraft-cli` |
 | [`vectorcraft-cli`](Formula/vectorcraft-cli.rb) | `0.24.1` | Vector art tool written from scratch in pure Rust | `brew install JsonLee12138/craft-clis/vectorcraft-cli` |
-| [`wordcraft-cli`](Formula/wordcraft-cli.rb) | `0.18.1` | Word processor in pure Rust | `brew install JsonLee12138/craft-clis/wordcraft-cli` |
+| [`wordcraft-cli`](Formula/wordcraft-cli.rb) | `0.19.1` | Word processor in pure Rust | `brew install JsonLee12138/craft-clis/wordcraft-cli` |
 
 <!-- FORMULAE-TABLE:END -->
 
